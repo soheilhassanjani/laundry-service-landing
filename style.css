@@ -1,0 +1,95 @@
+:root {
+  --teal-100: #e9f1f1;
+  --teal-200: #cdf5f4;
+  --teal-300: #72a4a5;
+  --orange: #e4843f;
+  --orange-darker: #c47136;
+  --black: #1f1923;
+  --white: #ffffff;
+  --light: #fbfbfb;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*  */
+
+.sec-landing {
+  padding: 25px;
+  background-color: var(--teal-200);
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
+.main-menu {
+  margin-left: auto;
+  margin-right: 25px;
+}
+
+.main-menu > ul {
+  display: flex;
+}
+
+.main-menu li {
+  padding: 0 10px;
+  margin: 0 10px;
+  color: var(--white);
+}
+
+.main-menu li a {
+  color: rgb(0, 0, 0, 0.6);
+}
+
+.contact-us {
+  background-color: var(--teal-300);
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: var(--white);
+}
+
+/* body-landing */
+
+.body-landing {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.body-landing__child {
+  flex-basis: 50%;
+}
+
+.body-landing__header {
+  font-size: 90px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.body-landing__p {
+  line-height: 1.5;
+  margin-bottom: 30px;
+  text-align: justify;
+  color: rgb(0, 0, 0, 0.6);
+}
+
+.body-landing__btn {
+  all: unset;
+  padding: 15px 30px;
+  border-radius: 8px;
+  background-color: var(--orange);
+  color: var(--white);
+  cursor: pointer;
+  transition: 330ms;
+}
+.body-landing__btn:hover {
+  background-color: var(--orange-darker);
+}
